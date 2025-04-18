@@ -1,0 +1,17 @@
+yum install -y git 
+git init
+git config --global user.name "ziyati"
+git config --global user.email "ziyati@gmail.com"
+
+
+git remote add origin https://github.com/ziyati/innov.git
+
+git add .
+git commit -m "Initial commit"
+
+
+git branch -M main
+git push -u origin main
+
+
+git push
